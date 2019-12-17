@@ -6601,10 +6601,12 @@ lcid@^1.0.0:
   dependencies:
     invert-kv "^1.0.0"
 
-leaflet-control-geocoder@^1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/leaflet-control-geocoder/-/leaflet-control-geocoder-1.6.0.tgz#d42dd715bcf16943b94f944ebbf4e95f17c6626c"
-  integrity sha512-ZKrnAukj2o0AwyKwjh506LgCXGYzKpExw6b8HURzNhopWdkQdYTTIIH/uXkgd9fsoI4GgMFpWjACOEavAyhlGA==
+leaflet-control-geocoder@^1.10.0:
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/leaflet-control-geocoder/-/leaflet-control-geocoder-1.10.0.tgz#634ab52a963e9db1e352123891bba436c3015d1b"
+  integrity sha512-ff8+wAifAg/NQetICfjpca8YD2fEYO2totnFUdtOH2JG7ufQeMLG38U2aqJTJ3Oz9g4hpIpng2f5QtlGOG8HYw==
+  optionalDependencies:
+    open-location-code "^1.0.0"
 
 leaflet-measure@3.1.0:
   version "3.1.0"
@@ -7721,6 +7723,11 @@ onetime@^2.0.0:
   integrity sha1-BnQoIw/WdEOyeUsiu6UotoZ5YtQ=
   dependencies:
     mimic-fn "^1.0.0"
+
+open-location-code@^1.0.0:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/open-location-code/-/open-location-code-1.0.3.tgz#5ea1a34ee5221c6cafa04392e1bd906fd7488f7e"
+  integrity sha1-XqGjTuUiHGyvoEOS4b2Qb9dIj34=
 
 opn@^5.1.0:
   version "5.4.0"
